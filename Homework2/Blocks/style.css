@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
+.topContainer{
+    height: 200px;
+    width: 600px;
+    background-color: #3a803e;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    font-size: 50px;
+}
+
+.middleContainers{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    column-gap: 10px;
+}
+
+.middleContainers>div{
+    height: 200px;
+    width: 200px;
+    background-color: #125409;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.bottomContainer{
+    height: 200px;
+    width: 600px;
+    background-color: #3a803e;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
