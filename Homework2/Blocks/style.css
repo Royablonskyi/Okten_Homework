@@ -5,6 +5,7 @@ body{
 
 .main{
     display: flex;
+    height: 100vh;
 }
 
 .topContainer{
@@ -38,7 +39,7 @@ body{
 }
 
 .bottomContainer{
-    height: 200px;
+    height: 500px;
     width: 600px;
     background-color: #3a803e;
     margin: 10px;
